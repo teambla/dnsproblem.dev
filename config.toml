@@ -1,0 +1,28 @@
+baseurl = "/"
+title = "Site Title"
+theme = "pulp"
+canonifyurls = true
+hasCJKLanguage = true
+
+[taxonomies]
+  series = "series"
+
+[params]
+    author = "Dns Problem?"
+    avatar = "avatar.jpg"
+    favicon = "favicon.ico"
+    description = """
+        Of course its a dns problem!
+    """
+    publicationYear = "2019"
+
+[outputs]
+    section = ["JSON", "HTML"]
+
+[[menu.main]]
+    identifier = "twitter"
+    # name = "Twitter"
+    pre = "<i class='fab fa-twitter fa-lg'></i>"
+    url = "https://twitter.com/problemDNS"
+    weight = 20
+
