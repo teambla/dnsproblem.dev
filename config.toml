@@ -1,6 +1,6 @@
 baseurl = "/"
-title = "Site Title"
-theme = "pulp"
+title = "dnsproblem.dev?"
+theme = "hugo-coder"
 canonifyurls = true
 hasCJKLanguage = true
 
@@ -8,12 +8,10 @@ hasCJKLanguage = true
   series = "series"
 
 [params]
-    author = "Dns Problem?"
+    author = "Of course it is a dns problem!"
     avatar = "avatar.jpg"
     favicon = "favicon.ico"
-    description = """
-        Of course its a dns problem!
-    """
+    description = "dnsproblem.dev"
     publicationYear = "2021"
 
 [outputs]
